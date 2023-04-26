@@ -1,11 +1,11 @@
 .main{
     position: absolute;
-    top: 10%;
-    left: 25%;
-    width: 500px;
-    height: 600px;
+    top: 0%;
+    left: 0%;
+    width: 720px;
+    height: 1600px;
     background: #360160;
-    margin: 34px 60px 105px 60px;
+    margin: 0px 0px 0px 0px;
 }
 
 .main_label{
@@ -90,10 +90,10 @@ color: #ffffff;
 
 .btn{
     position: absolute;
-    width: 36%;
-    height: 7.5%;
-    left: 12%;
-    top: 65%;
+    width: 200px;
+    height: 65px;
+    left: 60px;
+    top: 375px;
     background: #FFDC40;
     border-radius: 15px;
     font-family: 'Roboto Condensed';

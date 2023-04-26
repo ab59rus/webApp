@@ -1,3 +1,10 @@
+//const screenWidth = window.screen.width;
+//const screenHeight = window.screen.height;
+//alert(`${screenWidth}, ${screenHeight}`);
+
+//let mainElem = document.querySelector('.main');
+//mainElem.style.backgroundColor = 'yellow';
+
 let globalRes;
 let counter = 0;
 let rightAns = 0;
