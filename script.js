@@ -30,19 +30,23 @@ getNext()
 actionButton.addEventListener('click', () => {
     if (rect2.value != ""){
         if(actionButton.textContent != "Далее"){
+            actionButton.style.background = "gray";
             counter ++;
             if (rect2.value == res){
                 rightAns ++;
                 res1.textContent = "Верно";
+                res1.style.color = "green"
                 actionButton.textContent = "Далее";
 
             }
             else{
                 res1.textContent = "Ошибка";
+                res1.style.color = "red"
                 actionButton.textContent = "Далее";
 
             }}
         else{
+            actionButton.style.background = "#FFDC40";
             actionButton.textContent = "Проверить";
             res1.textContent = "";
             getNext();
